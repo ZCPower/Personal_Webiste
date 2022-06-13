@@ -1,0 +1,68 @@
+.resumeBody {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0;
+}
+
+.resumeBody h2 {
+    color: #40F99B;
+    font-size: 3.3em;
+    margin: .35em 0 .45em 0;
+    text-decoration: white underline 2px;
+    text-underline-offset: 5px;
+}
+
+.resumeBody h3 {
+    color: #40F99B;
+    background-color: #1f1f1f;
+    font-size: 2em;
+    text-align: center;
+    padding: .5em;
+    margin: 0;
+}
+
+.resumeBody h4 {
+    color: #40F99B;
+    text-align: left;
+    font-size: 1.8em;
+}
+
+.resumeBody p {
+    text-align: left;
+    color: white;
+    font-size: 1.5em;
+}
+
+.education,
+.workHistory,
+.volunteering {
+    /* border: 1px solid red; */
+    width: 95%;
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.educationEntry,
+.workEntry {
+    display: flex;
+    justify-content: space-between;
+    padding: 1em 8em;
+    margin: 0;
+}
+
+.educationEntry,
+.workEntry {
+    background-color: #443666
+}
+
+.educationEntry:nth-of-type(2n),
+.workEntry:nth-last-of-type(2n) {
+    background-color: #1f1f1f;
+}
+
+.sectionImg img {
+    width: 200px;
+    margin-left: 1.5em;
+}

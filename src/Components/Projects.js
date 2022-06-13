@@ -2,6 +2,7 @@ import React from 'react'
 import './Projects.css'
 
 function Projects() {
+    console.log('hey')
     return (
         <div className='projectContainer'>
             <h2>Projects</h2>
