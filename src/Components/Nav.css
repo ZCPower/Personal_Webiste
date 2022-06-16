@@ -9,11 +9,11 @@ nav {
     align-items: center;
     background: #40F99B;
     background: #32035a;
-    padding: 0.25em 0;
     z-index: 510;
     width: 100vw;
     border-bottom: 2px solid black;
     color: white;
+    /* height: 6vh; */
 }
 
 nav a {

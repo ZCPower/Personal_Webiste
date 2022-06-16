@@ -10,31 +10,16 @@
     height: 103vh;
 }
 
-h1 {
-    font-size: 56px;
-    margin: .25em;
-    font-family: 'Play', sans-serif;
-    font-weight: 400;
 
-}
 
-h2 {
-    color: white;
-    font-size: 30px;
-
-}
-
-p {
-    font-size: 24px;
-    /* color: #420264; */
-    /* color: #5C038C; */
-    /* color: #1B1734; */
-    /* color: #af88ff; */
-    /* color: #daf */
-    color: white;
-}
 
 .aboutParagraph {
     margin: 0 5vw;
     line-height: 40px;
+    font-size: 24px;
+    color: white;
+}
+
+.aboutContainer h4 {
+    font-size: 32px;
 }

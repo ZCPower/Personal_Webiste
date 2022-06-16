@@ -13,6 +13,7 @@ function Projects() {
                 <p>Fitness Tracker</p>
                 <p>Grace Shopper</p>
             </div>
+            <img src='https://img.icons8.com/ios-glyphs/344/github.png'></img>
         </div>
     )
 }
