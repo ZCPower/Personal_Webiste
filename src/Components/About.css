@@ -1,7 +1,13 @@
 .aboutContainer {
     /* border: 1px solid #9448BC */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #40F99B;
     text-align: center;
+    background-color: #32035a;
+    height: 103vh;
 }
 
 h1 {
@@ -25,4 +31,10 @@ p {
     /* color: #1B1734; */
     /* color: #af88ff; */
     /* color: #daf */
+    color: white;
+}
+
+.aboutParagraph {
+    margin: 0 5vw;
+    line-height: 40px;
 }

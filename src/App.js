@@ -13,26 +13,28 @@ import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-d
 function App() {
   return (
     <div className='App'>
-      <Router>
-        <Nav />
-        <Switch>
-          <Route path='/about'>
-            <About />
-          </Route>
-          <Route path='/contact'>
-            <Contact />
-          </Route>
-          <Route path='/home'>
-            <Home />
-          </Route>
-          <Route path='/portfolio'>
-            <Projects />
-          </Route>
-          <Route path='/resume'>
-            <Resume />
-          </Route>
-        </Switch>
-      </Router>
+      {/* <Router> */}
+      <Nav />
+      {/* <Switch> */}
+      {/* <Route path='/home'> */}
+      <Home />
+      {/* </Route> */}
+      {/* <Route path='/about'> */}
+      <About />
+      {/* </Route> */}
+
+
+      {/* <Route path='/portfolio'> */}
+      <Projects />
+      {/* </Route> */}
+      {/* <Route path='/resume'> */}
+      <Resume />
+      {/* </Route> */}
+      {/* <Route path='/contact'> */}
+      <Contact />
+      {/* </Route> */}
+      {/* </Switch> */}
+      {/* </Router>/ */}
     </div>
   );
 }

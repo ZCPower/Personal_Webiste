@@ -1,3 +1,24 @@
-h3 {
-    color: white;
+.projectContainer {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 102vh;
+
+}
+
+.projectContainer h2,
+.projectContainer h3,
+.projectContainer p {
+
+    color: black;
+}
+
+.projectContainer h2 {
+    font-size: 6vh;
+    text-align: center;
+    z-index: 500;
+    margin: 1em 0;
+    font-family: 'Play', sans-serif;
 }

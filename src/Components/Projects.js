@@ -9,6 +9,9 @@ function Projects() {
             <div className='project'>
                 <h3>Stranger's Things</h3>
                 <p>Craiglist Like App</p>
+                <p>Tic Tac Toe</p>
+                <p>Fitness Tracker</p>
+                <p>Grace Shopper</p>
             </div>
         </div>
     )

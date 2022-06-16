@@ -3,14 +3,17 @@
 
 nav {
     display: flex;
-    /* border: 1px solid red; */
+    position: fixed;
     margin: 0;
     justify-content: space-around;
     align-items: center;
     background: #40F99B;
     background: #32035a;
-    padding: .25em;
-    z-index: 10;
+    padding: 0.25em 0;
+    z-index: 510;
+    width: 100vw;
+    border-bottom: 2px solid black;
+    color: white;
 }
 
 nav a {
