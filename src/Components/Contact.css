@@ -2,6 +2,7 @@
     height: 96vh;
     color: white;
     background-color: #32035a;
+    background-color: #000;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
@@ -14,6 +15,7 @@
     color: #40F99B;
     font-size: 32px;
     margin-bottom: 1em;
+    font-family: 'Radio Canada'
 }
 
 .contactContainer h2 {
@@ -34,25 +36,26 @@ textarea {
     margin: .5em 1em .75em;
     padding: .75em 2.5em;
     font-size: 24px;
-    border: 3px solid #000
+    border: 3px solid #000;
+    font-family: 'Radio Canada'
 }
 
 button {
     padding: .5em;
     font-size: 28px;
     border: none;
-    background-color: #40F99B;
+    background-color: #32035a;
     font-weight: 700;
     margin-top: .25em;
     width: 95%;
     position: relative;
     left: 20px;
+    color: white;
 }
 
 button:hover {
+    background-color: #43257c;
     color: #40F99B;
-    background: black;
-
 }
 
 

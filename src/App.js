@@ -28,7 +28,7 @@ function App() {
       <Projects />
       {/* </Route> */}
       {/* <Route path='/resume'> */}
-      <Resume />
+      {/* <Resume /> */}
       {/* </Route> */}
       {/* <Route path='/contact'> */}
       <Contact />
