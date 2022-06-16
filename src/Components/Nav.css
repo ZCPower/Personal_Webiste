@@ -7,21 +7,17 @@ nav {
     margin: 0;
     justify-content: space-around;
     align-items: center;
-    background: #40F99B;
     background: #32035a;
     z-index: 510;
     width: 100vw;
     border-bottom: 2px solid black;
     color: white;
-    /* height: 6vh; */
 }
 
 nav a {
     color: white;
     text-decoration: none;
 }
-
-
 
 nav ul {
     display: flex;
@@ -34,12 +30,12 @@ nav ul {
 nav ul li {
     margin: 0em 1em;
     font-size: 24px;
-    font-family: 'Radio Canada', sans-serif;
     font-family: 'Play', sans-serif;
 }
 
-nav a:hover {
+nav a:hover,
+nav ul li:hover {
     color: #40F99B;
     text-decoration: underline;
-    text-underline-offset: 13.5px;
+    text-underline-offset: 10.5px;
 }

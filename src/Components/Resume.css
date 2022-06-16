@@ -5,6 +5,7 @@
     align-items: center;
     margin-top: 0;
     background-color: black;
+    padding: 2em;
 }
 
 .resumeBody h2 {
@@ -17,7 +18,7 @@
 
 .resumeBody h3 {
     color: #40F99B;
-    background-color: #1f1f1f;
+    background-color: #0f0f0f;
     font-size: 2em;
     text-align: center;
     padding: .5em;
@@ -55,12 +56,12 @@
 
 .educationEntry,
 .workEntry {
-    background-color: #443666
+    background-color: #32035a;
 }
 
 .educationEntry:nth-of-type(2n),
 .workEntry:nth-last-of-type(2n) {
-    background-color: #1f1f1f;
+    background-color: #0f0f0f;
 }
 
 .sectionImg img {

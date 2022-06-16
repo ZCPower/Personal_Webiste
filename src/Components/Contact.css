@@ -4,12 +4,21 @@
     background-color: #32035a;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
-    padding: 2em;
+    padding: 1em;
     box-sizing: border-box;
 }
 
+.contactContainer h4 {
+    color: #40F99B;
+    font-size: 32px;
+    margin-bottom: 1em;
+}
+
+.contactContainer h2 {
+    margin-top: 1.25em;
+}
 
 
 .contactForm {
@@ -22,8 +31,8 @@
 
 input,
 textarea {
-    margin: .5em 1em 1em;
-    padding: .5em 2.5em;
+    margin: .5em 1em .75em;
+    padding: .75em 2.5em;
     font-size: 24px;
     border: 3px solid #000
 }
@@ -46,9 +55,12 @@ button:hover {
 
 }
 
+
+
 .contactInfo img {
     width: 60px;
     margin: 1em;
 }
+
 
 footer {}
