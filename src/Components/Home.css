@@ -29,11 +29,16 @@ h1 {
 .skillIcons {
     width: 20vh;
     margin: 2vw;
+    z-index: 5;
+}
+
+.skillIconContainer {
+    z-index: 1;
 }
 
 .initial {
     position: absolute;
-    z-index: -5;
+    z-index: 0;
     background: linear-gradient(-45deg, #111, #333, #444, #666);
     background-size: 500%;
     font-size: 92vh;
@@ -46,6 +51,7 @@ h1 {
     -moz-animation: animated_text 3s ease-in-out infinite;
     -webkit-animation: animated_text 3s ease-in-out infinite;
     opacity: .8;
+
 }
 
 @keyframes animated_text {
@@ -78,6 +84,7 @@ h1 {
     width: 14px;
     height: 4px;
     background-color: #40F99B;
+    /* background-color: #8332fa; */
     border-radius: 50%;
     box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.1), 0 0 0 8px rgba(255, 255, 255, 0.1), 0 0 20px rgba(255, 255, 255, 1);
     animation: animate 3.2s linear infinite;
@@ -88,7 +95,7 @@ h1 {
     position: absolute;
     top: 0;
     transform: translateY(-50%);
-    width: 75px;
+    width: 25px;
     height: 1px;
     background: linear-gradient(90deg, #fff, transparent);
 

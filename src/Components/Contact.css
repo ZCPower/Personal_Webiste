@@ -40,6 +40,11 @@ textarea {
     font-family: 'Radio Canada'
 }
 
+textarea {
+    height: 10vh;
+    resize: none;
+}
+
 button {
     padding: .5em;
     font-size: 28px;
