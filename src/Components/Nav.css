@@ -31,6 +31,8 @@ nav ul li {
     margin: 0em 1em;
     font-size: 24px;
     font-family: 'Play', sans-serif;
+    /* padding: 0 1em; */
+    /* padding-bottom: 1em; */
 }
 
 nav a:hover,
@@ -38,4 +40,6 @@ nav ul li:hover {
     color: #40F99B;
     text-decoration: underline;
     text-underline-offset: 10.5px;
+    /* change to border bottom to encapsulate entire list item */
+    border-bottom: 2px solid #40F99B;
 }

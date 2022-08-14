@@ -14,9 +14,9 @@ export default function Nav() {
                 <li> <Link to='/contact'>Contact</Link></li> */}
                 <li>Home</li>
                 <li>About</li>
-                <li>Home</li>
-                <li>Home</li>
-                <li>Home</li>
+                <li>Projects</li>
+                <li>Resume</li>
+                <li>Contact</li>
             </ul>
         </nav >
     )

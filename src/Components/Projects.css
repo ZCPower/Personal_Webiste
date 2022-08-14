@@ -40,11 +40,16 @@
     color: #40F99B;
     font-size: 28px;
     font-family: 'Play';
-    text-decoration: none;
 }
 
 .projectBlurb p {
     color: white;
     font-size: 20px;
     font-family: 'Radio Canada'
+}
+
+#projectIcon {
+    width: 150px;
+    height: 150px;
+    border-radius: 0;
 }
