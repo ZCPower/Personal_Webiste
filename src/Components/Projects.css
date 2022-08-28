@@ -48,6 +48,24 @@
     font-family: 'Radio Canada'
 }
 
+.projectBlurb a {
+    /* text-decoration: none; */
+    text-decoration-color: #00a95B;
+}
+
+.projectBlurb a:visited {
+    color: #40F99B;
+}
+
+.projectBlurb h3:hover {
+    color: #54237a;
+    /* text-decoration-color: purple; */
+}
+
+.projectBlurb a:hover {
+    text-decoration-color: #74237a;
+}
+
 #projectIcon {
     width: 150px;
     height: 150px;

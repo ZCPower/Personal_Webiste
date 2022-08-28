@@ -6,7 +6,7 @@ function Home() {
         <div className='homeContainer'>
             <h1>Zach Power</h1>
             <h2>Full-Stack Web Developer</h2>
-            <span className='initial'>Z</span>
+            <span className='initial' id="initial">Z</span>
             <div className='starContainer'>
                 <span className='star'></span>
                 <span className='star'></span>
