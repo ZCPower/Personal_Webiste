@@ -16,10 +16,10 @@ function Projects() {
 
             <div className='project'>
                 <div className='projectBlurb'>
-                    <a href='https://secret-refuge-41031.herokuapp.com/' target='_blank'> <h3>Fitness Tracker... TBD</h3></a>
+                    <a href='https://zp-fitness-trackr.herokuapp.com/' target='_blank'> <h3>Fitness Tracker... TBD</h3></a>
                     <p>A fullstack web app that tracks fitness wooooooo-eeeeee!</p>
                 </div>
-                <a href='https://secret-refuge-41031.herokuapp.com/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-dumbbell-fitness-gym-justicon-lineal-color-justicon-1.png' alt=''></img></a>
+                <a href='https://zp-fitness-trackr.herokuapp.com/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-dumbbell-fitness-gym-justicon-lineal-color-justicon-1.png' alt=''></img></a>
             </div>
             <div className='project'>
                 <div className='projectBlurb'>
