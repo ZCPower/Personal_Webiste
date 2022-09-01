@@ -10,8 +10,10 @@ nav {
     background: #32035a;
     z-index: 510;
     width: 100vw;
-    border-bottom: 2px solid black;
+    padding-bottom: 3px;
+    border-bottom: 3px solid black;
     color: white;
+    box-sizing: border-box;
 }
 
 nav a {
@@ -19,27 +21,31 @@ nav a {
     text-decoration: none;
 }
 
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 0;
+    /* padding: .5em; */
     list-style-type: none;
-    margin: .5em;
+    margin: 0em;
+    box-sizing: border-box;
 }
 
 nav ul li {
-    margin: 0em 1em;
+    /* margin: 0em 1em; */
     font-size: 24px;
     font-family: 'Play', sans-serif;
+    /* border: 1px solid yellow; */
+    padding: .55em 1em;
+    /* border-bottom: 3px solid black; */
     /* padding: 0 1em; */
     /* padding-bottom: 1em; */
+    /* transition: border .5s ease-in; */
 }
 
-nav a:hover,
+/* nav a:hover, */
 nav ul li:hover {
     color: #40F99B;
-    text-decoration: underline;
-    text-underline-offset: 10.5px;
-    /* change to border bottom to encapsulate entire list item */
-    border-bottom: 2px solid #40F99B;
+    border-bottom: 3px solid #40F99B;
+    margin-bottom: -3px;
 }
