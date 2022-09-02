@@ -1,5 +1,5 @@
 import React from 'react'
-import './Resume.css'
+import '../Styles/Resume.css'
 
 function Resume() {
     console.log('AHHHH')

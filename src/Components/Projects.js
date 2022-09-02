@@ -1,5 +1,5 @@
 import React from 'react'
-import './Projects.css'
+import '../Styles/Projects.css'
 
 function Projects() {
     console.log('hey')

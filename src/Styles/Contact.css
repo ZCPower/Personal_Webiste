@@ -20,7 +20,7 @@
 }
 
 .contactContainer h2 {
-    margin: 1.25em;
+    margin-top: 1.25em;
 }
 
 
@@ -68,35 +68,66 @@ button:hover {
 
 .contactInfo img {
     width: 60px;
-    margin: 1em;
+    margin: .5em 1em;
+
 }
 
 
 .personalContact {
-    border: 2px solid white;
-    padding: 0 2em 0 0;
+    /* border: 2px solid white; */
+    border: 2px solid #64379f;
+    /* padding: 0 2em 0 0; */
     background: #32035a;
     border-radius: 80px;
     display: flex;
     align-items: center;
-    justify-content: flex-start;
+    /* justify-content: space-between; */
     margin: 2em;
+    width: 25em;
 }
 
 .personalContact a {
     display: flex;
     align-items: center;
     padding: 0;
+    text-decoration-color: white;
+    justify-self: flex-end;
 }
 
 .personalContact img {
-    /* margin: 1em; */
+    /* margin-right: 1em; */
     /* width: 20px; */
     padding: 0;
 }
 
 .contactLink {
     color: white;
-    font-size: 2em;
+    font-size: 20px;
     padding: 0;
+    justify-self: flex-end;
+}
+
+#gmail {
+    font-size: 20px;
+}
+
+@media (max-width: 1290px) {
+    .contactContainer h2 {
+        /* font-size: 2px; */
+    }
+
+    .contactContainer h4 {
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 500px) {
+    .contactContainer h2 {
+        /* font-size: 2px; */
+    }
+
+    .contactContainer h4 {
+        font-size: 18px;
+        text-align: center;
+    }
 }

@@ -1,0 +1,71 @@
+.cloud {
+    animation: move 6s ease infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: #FFFFFF;
+    height: 66px;
+    width: 90px;
+    box-shadow:
+        #FFFFFF 70px -15px 0 -5px,
+        #FFFFFF 35px -25px,
+        #FFFFFF 30px 10px,
+        #FFFFFF 60px 15px 0 -10px,
+        #FFFFFF 90px 5px 0 -5px;
+
+}
+
+.cloud2 {
+    animation: move 6s ease infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: #CCC;
+    height: 65px;
+    width: 85px;
+    box-shadow:
+        #CCC 65px -15px 0 -5px,
+        #CCC 25px -25px,
+        #CCC 30px 10px,
+        #CCC 60px 15px 0 -10px,
+        #CCC 85px 5px 0 -5px;
+    top: 11%;
+    left: 12%;
+    animation-duration: 8s;
+    z-index: 2115;
+}
+
+.cloud3 {
+    animation: move 6s ease infinite;
+    border-radius: 50%;
+    position: absolute;
+    top: 10%;
+    left: 75%;
+    margin-top: -30px;
+    margin-left: -30px;
+    background: #BBB;
+    height: 65px;
+    width: 85px;
+    box-shadow:
+        #BBB 65px -15px 0 -5px,
+        #BBB 25px -25px,
+        #BBB 30px 10px,
+        #BBB 60px 15px 0 -10px,
+        #BBB 85px 5px 0 -5px;
+    /* top: 11%; */
+    /* left: 12%; */
+    animation-duration: 8s;
+    z-index: 2115;
+}
+
+@keyframes move {
+    50% {
+        transform: translateY(-15px);
+    }
+}
