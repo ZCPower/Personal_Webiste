@@ -9,6 +9,7 @@
     align-items: center;
     padding: 1em;
     box-sizing: border-box;
+    width: 100vw;
 }
 
 .contactContainer h4 {
@@ -71,4 +72,31 @@ button:hover {
 }
 
 
-footer {}
+.personalContact {
+    border: 2px solid white;
+    padding: 0 2em 0 0;
+    background: #32035a;
+    border-radius: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 2em;
+}
+
+.personalContact a {
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.personalContact img {
+    /* margin: 1em; */
+    /* width: 20px; */
+    padding: 0;
+}
+
+.contactLink {
+    color: white;
+    font-size: 2em;
+    padding: 0;
+}

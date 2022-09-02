@@ -9,8 +9,10 @@
     color: #40F99B;
     text-align: center;
     background-color: #32035a;
-    padding: 2em;
+    /* padding: 2em; */
     border-bottom: 5px solid #40F99B;
+    min-height: 105vh;
+    margin: 0em;
 }
 
 .aboutContainer img {
@@ -20,12 +22,32 @@
 
 .aboutParagraph {
     margin: 0 5vw 2em;
-    line-height: 40px;
-    font-size: 24px;
+    line-height: 42px;
+    font-size: 30px;
     color: white;
     font-family: 'Radio Canada'
 }
 
 .aboutContainer h4 {
     font-size: 32px;
+}
+
+.hobbies {
+    font-size: 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .aboutParagraph {
+        font-size: 22px;
+        padding: 1em;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .aboutParagraph {
+        font-size: 18px;
+        padding: 1em;
+        text-align: center;
+    }
 }

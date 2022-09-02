@@ -40,7 +40,8 @@ nav ul li {
     /* border-bottom: 3px solid black; */
     /* padding: 0 1em; */
     /* padding-bottom: 1em; */
-    /* transition: border .5s ease-in; */
+    /* transition: border .4s initial; */
+    cursor: pointer;
 }
 
 /* nav a:hover, */
@@ -48,4 +49,22 @@ nav ul li:hover {
     color: #40F99B;
     border-bottom: 3px solid #40F99B;
     margin-bottom: -3px;
+}
+
+@media screen and (max-width: 450px) {
+    nav {
+        overflow-x: hidden;
+        width: 100vw;
+    }
+
+    nav ul li {
+        font-size: 16px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+    }
 }

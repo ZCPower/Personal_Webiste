@@ -7,34 +7,16 @@ import Contact from "./Components/Contact";
 import Home from './Components/Home'
 import Resume from "./Components/Resume";
 
-import { BrowserRouter as Router, Route, Switch, Redirect } from 'react-router-dom'
-
 
 function App() {
   return (
     <div className='App'>
-      {/* <Router> */}
       <Nav />
-      {/* <Switch> */}
-      {/* <Route path='/home'> */}
       <Home />
-      {/* </Route> */}
-      {/* <Route path='/about'> */}
       <About />
-      {/* </Route> */}
-
-
-      {/* <Route path='/portfolio'> */}
       <Projects />
-      {/* </Route> */}
-      {/* <Route path='/resume'> */}
       {/* <Resume /> */}
-      {/* </Route> */}
-      {/* <Route path='/contact'> */}
       <Contact />
-      {/* </Route> */}
-      {/* </Switch> */}
-      {/* </Router>/ */}
     </div>
   );
 }
