@@ -99,6 +99,7 @@ h5 {
     .aboutParagraph {
         font-size: 18px;
         /* padding: 1em; */
+        width: 70%;
         text-align: center;
     }
 
