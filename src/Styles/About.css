@@ -15,6 +15,7 @@
 
 .aboutContainer h2 {
     margin: 0;
+    margin-top: 1em;
     text-align: center;
     flex-wrap: wrap;
     /* margin-top: -2em; */
@@ -101,6 +102,7 @@ h5 {
         /* padding: 1em; */
         width: 70%;
         text-align: center;
+        margin: 2em 0em;
     }
 
     .skillIconContainer {
