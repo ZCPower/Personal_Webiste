@@ -130,4 +130,8 @@ button:hover {
         font-size: 18px;
         text-align: center;
     }
+
+    .personalContact {
+        padding: 0;
+    }
 }
