@@ -132,6 +132,7 @@ button:hover {
     }
 
     .personalContact {
-        padding: 0;
+        /* padding: 0; */
+        width: 20em;
     }
 }
