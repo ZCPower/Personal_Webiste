@@ -124,7 +124,7 @@ button:hover {
 @media (max-width: 500px) {
     .contactContainer h2 {
         /* font-size: 2px; */
-        height: 96vh;
+        /* height: 96vh; */
     }
 
     .contactContainer h4 {
@@ -135,5 +135,9 @@ button:hover {
     .personalContact {
         /* padding: 0; */
         width: 20em;
+    }
+
+    .contactContainer {
+        height: 96vh;
     }
 }
