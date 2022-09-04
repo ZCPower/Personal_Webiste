@@ -98,8 +98,12 @@ h5 {
 @media screen and (max-width: 450px) {
     .aboutParagraph {
         font-size: 18px;
-        padding: 1em;
+        /* padding: 1em; */
         text-align: center;
+    }
+
+    .skillIconContainer {
+        padding: 0;
     }
 
 }
