@@ -19,7 +19,7 @@ function Projects() {
 
             <div className='project'>
                 <div className='projectBlurb'>
-                    <a href='https://zp-fitness-trackr.herokuapp.com/' target='_blank'> <h3>Fitness Tracker</h3></a>
+                    <a href='https://power-fitnesstracker.herokuapp.com/' target='_blank'> <h3>Fitness Tracker</h3></a>
                     <p>A fullstack web app that tracks fitness wooooooo-eeeeee!</p>
                 </div>
                 <div className='projectLogo'>
