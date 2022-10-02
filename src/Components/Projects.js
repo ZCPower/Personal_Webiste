@@ -20,7 +20,7 @@ function Projects() {
             <div className='project'>
                 <div className='projectBlurb'>
                     <a href='https://power-fitnesstracker.herokuapp.com/' target='_blank'> <h3>Fitness Tracker</h3></a>
-                    <p>A fullstack web app that tracks fitness wooooooo-eeeeee!</p>
+                    <p>"I'm fergalicious, my body stay vicious. I be up in the gym just working on my fitness. He's my witness. (OH WEE)" - Fergie</p>
                 </div>
                 <div className='projectLogo'>
                     <a href='https://zp-fitness-trackr.herokuapp.com/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-dumbbell-fitness-gym-justicon-lineal-color-justicon-1.png' alt=''></img></a>
