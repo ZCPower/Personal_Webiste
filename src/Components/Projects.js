@@ -2,7 +2,6 @@ import React from 'react'
 import '../Styles/Projects.css'
 
 function Projects() {
-    console.log('hey')
     return (
         <div className='projectContainer' id='Projects'>
             <h2>Projects</h2>
@@ -19,20 +18,20 @@ function Projects() {
 
             <div className='project'>
                 <div className='projectBlurb'>
-                    <a href='https://power-fitnesstracker.herokuapp.com/' target='_blank'> <h3>Fitness Tracker</h3></a>
+                    <a href='https://fitness-zp.netlify.app/' target='_blank'> <h3>Fitness Tracker</h3></a>
                     <p>I'm fergalicious, my body stay vicious. I be up in the gym just working on my fitness. He's my witness. Ooooo-weeee!</p>
                 </div>
                 <div className='projectLogo'>
-                    <a href='https://zp-fitness-trackr.herokuapp.com/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-dumbbell-fitness-gym-justicon-lineal-color-justicon-1.png' alt=''></img></a>
+                    <a href='https://fitness-zp.netlify.app/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-justicon-lineal-color-justicon/2x/external-dumbbell-fitness-gym-justicon-lineal-color-justicon-1.png' alt=''></img></a>
                 </div>
             </div>
             <div className='project'>
                 <div className='projectBlurb'>
-                    <a href='https://earnest-horse-ab4333.netlify.app/register' target='_blank'><h3>Stranger's Things</h3></a>
+                    <a href='https://strangersthings-zp.netlify.app/' target='_blank'><h3>Stranger's Things</h3></a>
                     <p>A Craiglist-Lite App built using React</p>
                 </div>
                 <div className='projectLogo'>
-                    <a href='https://earnest-horse-ab4333.netlify.app/register' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-creatype-filed-outline-colourcreatype/344/external-market-e-commerce-creatype-filed-outline-colourcreatype.png' alt=''></img></a>
+                    <a href='https://strangersthings-zp.netlify.app/' target='_blank'><img id='projectIcon' src='https://img.icons8.com/external-creatype-filed-outline-colourcreatype/344/external-market-e-commerce-creatype-filed-outline-colourcreatype.png' alt=''></img></a>
                 </div>
             </div>
             <div className='project'>
