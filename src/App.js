@@ -11,12 +11,12 @@ import Resume from "./Components/Resume";
 function App() {
   return (
     <div className='App'>
-      <Nav />
+      {/* <Nav /> */}
       <Home />
-      <About />
-      <Projects />
+      {/* <About /> */}
+      {/* <Projects /> */}
       {/* <Resume /> */}
-      <Contact />
+      {/* <Contact /> */}
     </div>
   );
 }
